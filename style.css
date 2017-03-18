@@ -1,6 +1,11 @@
+body {
+  background-color: lightblue;
+}
+
 #container {
-  width: 100%;
-  position: fixed;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
 }
 
 #tree {
@@ -10,24 +15,25 @@
 }
 
 .blossom {
-  position: relative;
-  width: 1.5%;
-
+  position: absolute;
+  min-width: 20px;
 }
 
 /* 1st Blossom */
 
 #petal0.blossom {
-  right: 11em;
-  bottom: 2em;
-  z-index: 1;
+  /*right: 11em;
+  bottom: 2em;*/
+  left: 5.8em;
+  top: 19.2em;
 
 }
 
 #petal1.blossom {
-  right: 12em;
-  bottom: 1.8em;
-  z-index: 2;
+  /*right: 12em;
+  bottom: 1.8em;*/
+  left: 6.5em;
+  top: 19.5em;
 
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
@@ -35,55 +41,48 @@
 }
 
 #petal2.blossom {
-  right: 13.2em;
-  bottom: 1.3em;
-
-  z-index: 3;
+  left: 6.5em;
+  top: 20em;
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
 }
 
 #petal3.blossom {
-  left: 547px;
-  bottom: 395px;
-  z-index: 4;
+  left: 6.2em;
+  top: 20.5em;
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
 }
 
 #petal4.blossom {
-  left: 540px;
-  bottom: 393px;
-  z-index: 5;
+  left: 5.8em;
+  top: 20.5em;
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
 }
 
 #petal5.blossom {
-  left: 530px;
-  bottom: 396px;
-  z-index: 6;
+  left: 5.3em;
+  top: 20.2em;
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
 }
 
 #petal6.blossom {
-  left: 527px;
-  bottom: 406px;
-  z-index: 7;
+  left: 5.3em;
+  top: 20em;
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
 }
 
 #petal7.blossom {
-  left: 529px;
-  bottom: 413px;
-  z-index: 7;
+  left: 5.2em;
+  top: 19.5em;
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
@@ -92,71 +91,188 @@
 /* 2nd Blossom */
 
 #petal8.blossom {
-  left: 535px;
-  bottom: 340px;
-  z-index: 1;
-}
+  left: 6.4em;
+  top: 20.5em;}
 
 #petal9.blossom {
-  left: 545px;
-  bottom: 337px;
-  z-index: 2;
-
+  left: 7em;
+  top: 20.8em;
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
 }
 
 #petal10.blossom {
-  left: 548px;
-  bottom: 330px;
-  z-index: 3;
+  left: 7em;
+  top: 21.2em;
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
 }
 
 #petal11.blossom {
-  left: 547px;
-  bottom: 295px;
-  z-index: 4;
+  left: 6.75em;
+  top: 21.7em;
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
 }
 
 #petal12.blossom {
-  left: 540px;
-  bottom: 293px;
-  z-index: 5;
+  left: 6.3em;
+  top: 21.7em;
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
 }
 
 #petal13.blossom {
-  left: 530px;
-  bottom: 296px;
-  z-index: 6;
+  left: 5.9em;
+  top: 21.7em;
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
 }
 
 #petal14.blossom {
-  left: 527px;
-  bottom: 206px;
-  z-index: 7;
+  left: 5.6em;
+  top: 21em;
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
 }
 
 #petal15.blossom {
-  left: 529px;
-  bottom: 213px;
-  z-index: 7;
+  left: 5.9em;
+  top: 20.5em;
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
 }
+
+/* 3rd Blossom */
+
+#petal16.blossom {
+  left: 10.4em;
+  top: 19.5em;
+}
+
+#petal17.blossom {
+  left: 11em;
+  top: 19.7em;
+  -ms-transform: rotate(45deg); /* IE 9 */
+   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+   transform: rotate(45deg);
+}
+
+#petal18.blossom {
+  left: 11em;
+  top: 20.1em;
+  -ms-transform: rotate(90deg); /* IE 9 */
+   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+   transform: rotate(90deg);
+}
+
+#petal19.blossom {
+  left: 11em;
+  top: 20.7em;
+  -ms-transform: rotate(135deg); /* IE 9 */
+   -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+   transform: rotate(135deg);
+}
+
+#petal20.blossom {
+  left: 10.5em;
+  top: 20.9em;
+  -ms-transform: rotate(180deg); /* IE 9 */
+   -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+   transform: rotate(180deg);
+}
+
+#petal21.blossom {
+  left: 10em;
+  top: 20.6em;
+  -ms-transform: rotate(225deg); /* IE 9 */
+   -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+   transform: rotate(225deg);
+}
+
+#petal22.blossom {
+  left: 10em;
+  top: 20em;
+  -ms-transform: rotate(270deg); /* IE 9 */
+   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+   transform: rotate(270deg);
+}
+
+#petal23.blossom {
+  left: 10.1em;
+  top: 19.6em;
+  -ms-transform: rotate(315deg); /* IE 9 */
+   -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
+   transform: rotate(315deg);
+}
+
+/* 4th Blossom */
+
+#petal24.blossom {
+  right: 49.4em;
+  bottom: -2.55em;
+}
+
+#petal25.blossom {
+  right: 50.4em;
+  bottom: -2.9em;
+  -ms-transform: rotate(45deg); /* IE 9 */
+   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+   transform: rotate(45deg);
+}
+
+#petal26.blossom {
+  right: 51.8em;
+  bottom: -3.3em;
+  -ms-transform: rotate(90deg); /* IE 9 */
+   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+   transform: rotate(90deg);
+}
+
+#petal27.blossom {
+  right: 51.8em;
+  bottom: -3.7em;
+  -ms-transform: rotate(135deg); /* IE 9 */
+   -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+   transform: rotate(135deg);
+}
+
+#petal28.blossom {
+  right: 41.9em;
+  bottom: -3.79em;
+  -ms-transform: rotate(180deg); /* IE 9 */
+   -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+   transform: rotate(180deg);
+}
+
+#petal29.blossom {
+  right: 43.9em;
+  bottom: -3.79em;
+  -ms-transform: rotate(225deg); /* IE 9 */
+   -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+   transform: rotate(225deg);
+}
+
+#petal30.blossom {
+  right: 45.5em;
+  bottom: -3.39em;
+  -ms-transform: rotate(270deg); /* IE 9 */
+   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+   transform: rotate(270deg);
+}
+
+#petal31.blossom {
+  right: 46.8em;
+  bottom: -2.9em;
+  z-index: 31;
+  -ms-transform: rotate(315deg); /* IE 9 */
+   -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
+   transform: rotate(315deg);
+}*/

@@ -1,11 +1,12 @@
 body {
   background-color: lightblue;
+  overflow: hidden;
 }
 
 #container {
   position: absolute;
   width: 1000px;
-  height: 1000px;
+  height: 400px;
 }
 
 #tree {
@@ -26,7 +27,26 @@ body {
   bottom: 2em;*/
   left: 5.8em;
   top: 19.2em;
-
+  -webkit-animation: petal0-animation 4s linear forwards;
+}
+@-webkit-keyframes petal0-animation {
+  0% {
+    left: 5.8em;
+    top: 19.2em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  10% {
+    left: 10em;
+  }
+  90% {
+    left: 80em;
+    top: 0em;
+  }
+  100% {
+    left: 100.8em;
+    top: 0em;
+    -webkit-transform: rotateY(360deg) rotateX(90deg);
+  }
 }
 
 #petal1.blossom {
@@ -38,6 +58,27 @@ body {
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
+   -webkit-animation: petal1-animation 4s linear 2s forwards;
+
+}
+@-webkit-keyframes petal1-animation {
+  0% {
+    left: 6.5em;
+    top: 19.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  10% {
+    left: 15em;
+  }
+  90% {
+    left: 75em;
+    top: 0em;
+  }
+  100% {
+    left: 90.8em;
+    top: 0em;
+    -webkit-transform: rotateY(360deg) rotateX(90deg);
+  }
 }
 
 #petal2.blossom {
@@ -46,6 +87,21 @@ body {
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
+   -webkit-animation: petal2-animation 5s linear 1s forwards;
+
+}
+
+@-webkit-keyframes petal2-animation {
+  0% {
+    left: 6.5em;
+    top: 20em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  100% {
+    left: 80.8em;
+    top: 2em;
+    -webkit-transform: rotateY(300deg) rotateX(45deg);
+  }
 }
 
 #petal3.blossom {
@@ -54,6 +110,24 @@ body {
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
+   -webkit-animation: petal3-animation 7s linear 1s forwards;
+}
+
+@-webkit-keyframes petal3-animation {
+  0% {
+    left: 6.2em;
+    top: 20.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  90% {
+    left: 75em;
+    top: 2em;
+  }
+  100% {
+    left: 80.8em;
+    top: 0em;
+    -webkit-transform: rotateY(300deg) rotateX(45deg);
+  }
 }
 
 #petal4.blossom {
@@ -62,6 +136,24 @@ body {
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
+   -webkit-animation: petal4-animation 3s linear 1s forwards;
+}
+
+@-webkit-keyframes petal4-animation {
+  0% {
+    left: 5.8em;
+    top: 20.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  90% {
+    left: 75em;
+    top: 6em;
+  }
+  100% {
+    left: 80.8em;
+    top: 5em;
+    -webkit-transform: rotateY(200deg) rotateX(45deg);
+  }
 }
 
 #petal5.blossom {
@@ -70,6 +162,25 @@ body {
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
+   -webkit-animation: petal5-animation 3s linear 1s forwards;
+
+}
+
+@-webkit-keyframes petal5-animation {
+  0% {
+    left: 5.3em;
+    top: 20.2em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  750% {
+    left: 60em;
+    top: 2em;
+  }
+  100% {
+    left: 80.8em;
+    top: 0em;
+    -webkit-transform: rotateY(200deg) rotateX(20deg);
+  }
 }
 
 #petal6.blossom {
@@ -78,6 +189,25 @@ body {
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
+   -webkit-animation: petal6-animation 3.5s linear 1s forwards;
+
+}
+
+@-webkit-keyframes petal6-animation {
+  0% {
+    left: 5.3em;
+    top: 20em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  750% {
+    left: 60em;
+    top: 5em;
+  }
+  100% {
+    left: 90.8em;
+    top: 6em;
+    -webkit-transform: rotateY(100deg) rotateX(20deg);
+  }
 }
 
 #petal7.blossom {
@@ -86,6 +216,25 @@ body {
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
+   -webkit-animation: petal6-animation 4.5s linear 1s forwards;
+
+}
+
+@-webkit-keyframes petal7-animation {
+  0% {
+    left: 5.2em;
+    top: 19.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+  750% {
+    left: 64em;
+    top: 10em;
+  }
+  100% {
+    left: 90.8em;
+    top: 8em;
+    -webkit-transform: rotateY(200deg) rotateX(20deg);
+  }
 }
 
 /* 2nd Blossom */

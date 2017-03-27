@@ -7131,6 +7131,22 @@ body {
 #petal288.blossom {
   left: 25em;
   top: 31.3em;
+  -webkit-animation: petal288-animation 3s linear 4.2s forwards;
+
+}
+
+@-webkit-keyframes petal288-animation {
+  0% {
+    left: 25em;
+    top: 31.3em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(192deg) rotateX(42deg);
+  }
 }
 
 #petal289.blossom {
@@ -7139,6 +7155,22 @@ body {
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
+   -webkit-animation: petal289-animation 4.5s linear 4.8s forwards;
+
+}
+
+@-webkit-keyframes petal289-animation {
+  0% {
+    left: 25.3em;
+    top: 31.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 25.4em;
+    -webkit-transform: rotateY(62deg) rotateX(82deg);
+  }
 }
 
 #petal290.blossom {
@@ -7147,6 +7179,22 @@ body {
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
+   -webkit-animation: petal290-animation 4.8s linear 3.8s forwards;
+
+}
+
+@-webkit-keyframes petal290-animation {
+  0% {
+    left: 25.5em;
+    top: 31.8em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 25.4em;
+    -webkit-transform: rotateY(72deg) rotateX(182deg);
+  }
 }
 
 #petal291.blossom {
@@ -7155,6 +7203,22 @@ body {
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
+   -webkit-animation: petal291-animation 4.9s linear 3.4s forwards;
+
+}
+
+@-webkit-keyframes petal291-animation {
+  0% {
+    left: 25.2em;
+    top: 32.1em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 27.4em;
+    -webkit-transform: rotateY(92deg) rotateX(82deg);
+  }
 }
 
 #petal292.blossom {
@@ -7163,6 +7227,22 @@ body {
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
+   -webkit-animation: petal292-animation 3.9s linear 3.4s forwards;
+
+}
+
+@-webkit-keyframes petal292-animation {
+  0% {
+    left: 25em;
+    top: 32.3em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 24.4em;
+    -webkit-transform: rotateY(62deg) rotateX(92deg);
+  }
 }
 
 #petal293.blossom {
@@ -7171,6 +7251,22 @@ body {
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
+   -webkit-animation: petal293-animation 4.2s linear 3.4s forwards;
+
+}
+
+@-webkit-keyframes petal293-animation {
+  0% {
+    left: 24.6em;
+    top: 32em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 24.4em;
+    -webkit-transform: rotateY(62deg) rotateX(92deg);
+  }
 }
 
 #petal294.blossom {
@@ -7179,6 +7275,22 @@ body {
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
+   -webkit-animation: petal294-animation 3.9s linear 3.9s forwards;
+
+}
+
+@-webkit-keyframes petal294-animation {
+  0% {
+    left: 24.3em;
+    top: 31.8em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 24.4em;
+    -webkit-transform: rotateY(172deg) rotateX(122deg);
+  }
 }
 
 #petal295.blossom {
@@ -7187,6 +7299,22 @@ body {
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
+   -webkit-animation: petal295-animation 3.7s linear 4.9s forwards;
+
+}
+
+@-webkit-keyframes petal295-animation {
+  0% {
+    left: 24.5em;
+    top: 31.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 29.4em;
+    -webkit-transform: rotateY(92deg) rotateX(52deg);
+  }
 }
 
 /* 38th Blossom */
@@ -7194,6 +7322,22 @@ body {
 #petal296.blossom {
   left: 26em;
   top: 33.6em;
+  -webkit-animation: petal296-animation 3.7s linear 5.9s forwards;
+
+}
+
+@-webkit-keyframes petal296-animation {
+  0% {
+    left: 26em;
+    top: 33.6em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 22.4em;
+    -webkit-transform: rotateY(82deg) rotateX(152deg);
+  }
 }
 
 #petal297.blossom {
@@ -7202,6 +7346,22 @@ body {
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
+   -webkit-animation: petal297-animation 3.3s linear 5s forwards;
+
+}
+
+@-webkit-keyframes petal297-animation {
+  0% {
+    left: 26.3em;
+    top: 33.9em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(82deg) rotateX(152deg);
+  }
 }
 
 #petal298.blossom {
@@ -7210,6 +7370,22 @@ body {
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
+   -webkit-animation: petal298-animation 3.9s linear 4.9s forwards;
+
+}
+
+@-webkit-keyframes petal298-animation {
+  0% {
+    left: 26.6em;
+    top: 34.2em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(79deg) rotateX(132deg);
+  }
 }
 
 #petal299.blossom {
@@ -7218,6 +7394,22 @@ body {
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
+   -webkit-animation: petal299-animation 3.3s linear 4.4s forwards;
+
+}
+
+@-webkit-keyframes petal299-animation {
+  0% {
+    left: 26.3em;
+    top: 34.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 27.4em;
+    -webkit-transform: rotateY(69deg) rotateX(112deg);
+  }
 }
 
 #petal300.blossom {
@@ -7226,6 +7418,22 @@ body {
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
+   -webkit-animation: petal300-animation 6.3s linear 5.4s forwards;
+
+}
+
+@-webkit-keyframes petal300-animation {
+  0% {
+    left: 26em;
+    top: 34.7em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 30.4em;
+    -webkit-transform: rotateY(69deg) rotateX(112deg);
+  }
 }
 
 #petal301.blossom {
@@ -7234,6 +7442,22 @@ body {
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
+   -webkit-animation: petal301-animation 6s linear 4.4s forwards;
+
+}
+
+@-webkit-keyframes petal301-animation {
+  0% {
+    left: 25.7em;
+    top: 34.4em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 28.4em;
+    -webkit-transform: rotateY(99deg) rotateX(162deg);
+  }
 }
 
 #petal302.blossom {
@@ -7242,6 +7466,22 @@ body {
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
+   -webkit-animation: petal302-animation 5.5s linear 4s forwards;
+
+}
+
+@-webkit-keyframes petal302-animation {
+  0% {
+    left: 25.3em;
+    top: 34.1em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 28.4em;
+    -webkit-transform: rotateY(189deg) rotateX(192deg);
+  }
 }
 
 #petal303.blossom {
@@ -7250,6 +7490,22 @@ body {
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
+   -webkit-animation: petal303-animation 5s linear 6s forwards;
+
+}
+
+@-webkit-keyframes petal303-animation {
+  0% {
+    left: 25.5em;
+    top: 33.8em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 25.4em;
+    -webkit-transform: rotateY(289deg) rotateX(162deg);
+  }
 }
 
 /* 39th Blossom */
@@ -7257,6 +7513,22 @@ body {
 #petal304.blossom {
   left: 26.3em;
   top: 35.6em;
+  -webkit-animation: petal304-animation 5.6s linear 5.4s forwards;
+
+}
+
+@-webkit-keyframes petal304-animation {
+  0% {
+    left: 26.3em;
+    top: 35.6em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 25.4em;
+    -webkit-transform: rotateY(139deg) rotateX(182deg);
+  }
 }
 
 #petal305.blossom {
@@ -7265,6 +7537,22 @@ body {
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
+   -webkit-animation: petal305-animation 3.6s linear 6.4s forwards;
+
+}
+
+@-webkit-keyframes petal305-animation {
+  0% {
+    left: 26.7em;
+    top: 35.8em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 20.4em;
+    -webkit-transform: rotateY(89deg) rotateX(112deg);
+  }
 }
 
 #petal306.blossom {
@@ -7273,6 +7561,22 @@ body {
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
+   -webkit-animation: petal306-animation 4s linear 3.4s forwards;
+
+}
+
+@-webkit-keyframes petal306-animation {
+  0% {
+    left: 27em;
+    top: 36.1em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 22.4em;
+    -webkit-transform: rotateY(189deg) rotateX(162deg);
+  }
 }
 
 #petal307.blossom {
@@ -7281,6 +7585,22 @@ body {
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
+   -webkit-animation: petal307-animation 7s linear 2.4s forwards;
+
+}
+
+@-webkit-keyframes petal307-animation {
+  0% {
+    left: 26.8em;
+    top: 36.4em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 22.4em;
+    -webkit-transform: rotateY(139deg) rotateX(162deg);
+  }
 }
 
 #petal308.blossom {
@@ -7289,6 +7609,22 @@ body {
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
+   -webkit-animation: petal308-animation 5s linear 2s forwards;
+
+}
+
+@-webkit-keyframes petal308-animation {
+  0% {
+    left: 26.5em;
+    top: 36.7em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 22.4em;
+    -webkit-transform: rotateY(139deg) rotateX(162deg);
+  }
 }
 
 #petal309.blossom {
@@ -7297,6 +7633,22 @@ body {
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
+   -webkit-animation: petal309-animation 4.2s linear 1s forwards;
+
+}
+
+@-webkit-keyframes petal309-animation {
+  0% {
+    left: 26.2em;
+    top: 36.4em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 22.4em;
+    -webkit-transform: rotateY(239deg) rotateX(162deg);
+  }
 }
 
 #petal310.blossom {
@@ -7305,6 +7657,22 @@ body {
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
+   -webkit-animation: petal310-animation 4.8s linear 4s forwards;
+
+}
+
+@-webkit-keyframes petal310-animation {
+  0% {
+    left: 26em;
+    top: 36.1em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(169deg) rotateX(82deg);
+  }
 }
 
 #petal311.blossom {
@@ -7313,6 +7681,22 @@ body {
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
+   -webkit-animation: petal311-animation 3s linear 4.2s forwards;
+
+}
+
+@-webkit-keyframes petal311-animation {
+  0% {
+    left: 26.2em;
+    top: 35.8em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(99deg) rotateX(182deg);
+  }
 }
 
 /* 40th Blossom */
@@ -7320,6 +7704,22 @@ body {
 #petal312.blossom {
   left: 27.9em;
   top: 35.5em;
+  -webkit-animation: petal312-animation 3s linear 3.2s forwards;
+
+}
+
+@-webkit-keyframes petal312-animation {
+  0% {
+    left: 27.9em;
+    top: 35.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 20.4em;
+    -webkit-transform: rotateY(49deg) rotateX(82deg);
+  }
 }
 
 #petal313.blossom {
@@ -7328,6 +7728,22 @@ body {
   -ms-transform: rotate(45deg); /* IE 9 */
    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
    transform: rotate(45deg);
+   -webkit-animation: petal313-animation 5s linear 3.2s forwards;
+
+}
+
+@-webkit-keyframes petal313-animation {
+  0% {
+    left: 27.9em;
+    top: 35.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 21.4em;
+    -webkit-transform: rotateY(149deg) rotateX(322deg);
+  }
 }
 
 #petal314.blossom {
@@ -7336,6 +7752,22 @@ body {
   -ms-transform: rotate(90deg); /* IE 9 */
    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
    transform: rotate(90deg);
+   -webkit-animation: petal314-animation 5.5s linear 8.2s forwards;
+
+}
+
+@-webkit-keyframes petal314-animation {
+  0% {
+    left: 27.9em;
+    top: 35.5em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 19.4em;
+    -webkit-transform: rotateY(89deg) rotateX(302deg);
+  }
 }
 
 #petal315.blossom {
@@ -7344,6 +7776,22 @@ body {
   -ms-transform: rotate(135deg); /* IE 9 */
    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
    transform: rotate(135deg);
+   -webkit-animation: petal315-animation 5.5s linear 6.2s forwards;
+
+}
+
+@-webkit-keyframes petal315-animation {
+  0% {
+    left: 28.2em;
+    top: 36.3em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 23.4em;
+    -webkit-transform: rotateY(319deg) rotateX(42deg);
+  }
 }
 
 #petal316.blossom {
@@ -7352,6 +7800,22 @@ body {
   -ms-transform: rotate(180deg); /* IE 9 */
    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
    transform: rotate(180deg);
+   -webkit-animation: petal316-animation 4.5s linear 6.9s forwards;
+
+}
+
+@-webkit-keyframes petal316-animation {
+  0% {
+    left: 27.9em;
+    top: 36.6em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 27.4em;
+    -webkit-transform: rotateY(319deg) rotateX(42deg);
+  }
 }
 
 #petal317.blossom {
@@ -7360,6 +7824,22 @@ body {
   -ms-transform: rotate(225deg); /* IE 9 */
    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
    transform: rotate(225deg);
+   -webkit-animation: petal317-animation 3.5s linear 5.9s forwards;
+
+}
+
+@-webkit-keyframes petal317-animation {
+  0% {
+    left: 27.5em;
+    top: 36.3em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 27.4em;
+    -webkit-transform: rotateY(219deg) rotateX(142deg);
+  }
 }
 
 #petal318.blossom {
@@ -7368,6 +7848,21 @@ body {
   -ms-transform: rotate(270deg); /* IE 9 */
    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
    transform: rotate(270deg);
+   -webkit-animation: petal318-animation 4.5s linear 4.9s forwards;
+}
+
+@-webkit-keyframes petal318-animation {
+  0% {
+    left: 27.3em;
+    top: 36em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 29.4em;
+    -webkit-transform: rotateY(129deg) rotateX(142deg);
+  }
 }
 
 #petal319.blossom {
@@ -7376,4 +7871,20 @@ body {
   -ms-transform: rotate(315deg); /* IE 9 */
    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
    transform: rotate(315deg);
+   -webkit-animation: petal319-animation 6.5s linear 8.3s forwards;
+
+}
+
+@-webkit-keyframes petal319-animation {
+  0% {
+    left: 27.4em;
+    top: 35.6em;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    left: 99em;
+    top: 14em;
+    -webkit-transform: rotateY(90deg) rotateX(190deg);
+  }
 }

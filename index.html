@@ -4,11 +4,21 @@
     <link rel="icon" href="favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
-    <title>Cherry Blossom Animation</title>
+    <title>Sakura</title>
+    <script src="jquery-3.1.1.min.js"></script>
+
   </head>
-  <body>
+  <body class="preload">
+
     <div id="container">
       <img id="tree" src="images/CherryTree.png"/>
+
+      <script type="text/javascript">
+      $(window).load(function() {
+        $("body").removeClass("preload");
+        });
+      </script>
+
 
         <img id="petal0" class="blossom" src="images/blossom1/petal0.png"/>
         <img id="petal1" class="blossom" src="images/blossom1/petal1.png"/>
